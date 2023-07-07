@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+  height: 85vh;
+  background: rgb(183, 80, 238);
+  background: linear-gradient(
+    180deg,
+    rgba(183, 80, 238, 1) 0%,
+    rgba(208, 172, 232, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container button {
+  top: 68%;
+  left: 45%;
+  justify-content: center;
+  background-color: rgb(12, 170, 188);
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: rgb(21, 20, 20);
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 2px rgb(22, 21, 21);
+}
+.container button:hover {
+  box-shadow: 3px 4px 2px rgb(22, 21, 21) inset;
+}

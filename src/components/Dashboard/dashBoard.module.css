@@ -1,0 +1,12 @@
+.container h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(21, 173, 239);
+  font-size: 3.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container .result {
+  font-size: 2rem;
+  color: rgb(244, 135, 135);
+  text-decoration: none;
+}
